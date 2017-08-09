@@ -1,6 +1,6 @@
 /* GENERAL */
 body {
-  background-color: #0E2237;
+  background-color: #33698A;
   color: #0E2237;
   font-family: 'Lato', sans-serif;
 }
@@ -14,20 +14,20 @@ div {
   /*border: 1px solid red;*/
 }
 
+/*33698A*/
 
 /* TITLE BAR */
 .title-name {
   margin-bottom: 0;
-  background-color: #33698A;
+  background-color: #0E2237;
   color: white;
-  padding: 20px 100px 5px 100px;
+  padding: 20px 0px 0px 0px;
 /*  padding-top: 20px;
   padding-bottom: 10px;*/
 }
 
 .title-name h2 {
-  font-family: 'Open Sans';
-  font-weight: 'light';
+  font-family: 'Montserrat';
   text-align: center;
   font-size: 50px;
 }
@@ -44,6 +44,8 @@ div {
 
 .my-nav-bar li {
   display: inline-block;
+  font-family: 'Montserrat';
+  font-weight: bold;
   /*border-right: 1px solid #0E2237;*/
 }
 
