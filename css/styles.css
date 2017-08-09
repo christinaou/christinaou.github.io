@@ -1,0 +1,44 @@
+.container {
+  margin-top: 30px;
+  background-color: #0d2238;
+}
+
+.img-edu {
+  height: 80px;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headshot {
+  height: 200px;
+  border-radius: 50%; 
+}
+
+.img-activities {
+  height: 200px;
+}
+
+.heading {
+  text-align: center;
+  height: 100%;
+}
+
+div {
+  /*border: 1px solid red;*/
+}
+
+.row {
+  background-color: #e5fbff;
+}
+
+.col-sm-4, .col {
+  background-color: white;
+}
+
+h2 span {
+  background-color: #ffc296;
+}
