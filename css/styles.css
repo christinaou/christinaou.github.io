@@ -3,6 +3,7 @@ body {
   background-color: #33698A;
   color: #0E2237;
   font-family: 'Lato', sans-serif;
+  margin-top: 153px;
 }
 
 .container {
@@ -14,16 +15,27 @@ div {
   /*border: 1px solid red;*/
 }
 
+p {
+  font-size: 16px;
+}
+
 /*33698A*/
 
 /* TITLE BAR */
 .title-name {
   margin-bottom: 0;
-  background-color: #0E2237;
-  color: white;
-  padding: 20px 0px 0px 0px;
+  /*background-color: #0E2237;
+  color: white;*/
+  background-color: #f4fdff;
+  color: #0E2237;
+  padding: 1px 0px 0px 0px;
 /*  padding-top: 20px;
   padding-bottom: 10px;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*z-index: 999;*/
 }
 
 .title-name h2 {
@@ -33,32 +45,44 @@ div {
 }
 
 /* NAV BAR */
+
+.my-nav-bar {
+  background-color: #0E2237;
+}
+
 .my-nav-bar ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background-color: #edffdd;
   text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+/*  width: 50%;
+  min-width: 376px;*/
+  width: 385px;
+  border-radius: 3px;
 }
 
 .my-nav-bar li {
   display: inline-block;
   font-family: 'Montserrat';
   font-weight: bold;
+  margin: 5px 0 5px 0;
   /*border-right: 1px solid #0E2237;*/
 }
 
-.my-nav-bar li:last-child {
+/*.my-nav-bar li:last-child {
     border-right: none;
-}
+}*/
 
 .my-nav-bar a {
   display: block;
-  padding: 12px 15px;
+  padding: 9px 16px;
   text-align: center;
   color: #0E2237;
+  background-color: #edffdd;
   text-decoration: none;
+  border-radius: 3px;
 }
 
 .my-nav-bar li a:hover:not(.active) {
@@ -84,8 +108,17 @@ div {
 
 
 /* CONTENT */
-.img-edu {
-  height: 80px;
+
+.content {
+  margin-top: 153px;
+  overflow-y: auto;
+  /*overflow: scroll;*/
+}
+
+.img-school {
+  width: 100%;
+  height: auto;
+  float: right;
 }
 
 .img-center {
@@ -95,7 +128,7 @@ div {
 }
 
 #headshot {
-  height: 200px;
+  height: 150px;
   border-radius: 2%; 
 }
 
@@ -108,14 +141,20 @@ div {
   height: 100%;
 }
 
-.row {
+.university-title {
+  margin-top: 0;
+}
+
+.card {
+  border-radius: 4px;
   background-color: #f4fdff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .col-sm-4, .col {
-  background-color: white;
+  /*background-color: white;*/
 }
 
 h2 span {
-  background-color: #ffdbbf;
+  /*background-color: #ffdbbf;*/
 }

@@ -15,50 +15,56 @@
 
     <div class="my-nav-bar">
       <ul>
-        <li><a class="active" href="#">About</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Leadership</a></li>
+        <li><a class="active" href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#leadership">Leadership</a></li>
       </ul>
     </div>
   </div>
-  <div class="container">
-
-
-    
-
-    <div class="row margin-top margin-bottom" id="intro">
+  <div class="container content">
+    <div class="row margin-bottom card" id="about">
       <div class="col-sm-8">
-        <h2>Hi, I'm Christina</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
+        <h2>Hi, I'm Christina:</h2>
+        <p>A rising junior studying Electrical and Computer Engineering at Carnegie Mellon University.<br />Thank you for visiting my website!</p>
+        <p>I have experience with software engineering, computer engineering, and leadership through my internships, coursework, and extracurricular activities. </p>
       </div>
       <div class="col-sm-3 col-sm-offset-1 margin-top margin-bottom">
         <img src="./images/headshot.jpg" id="headshot" class="img-center" />
       </div>
     </div>
 
-    <div class="row margin-bottom" id="education">
+    <div class="row margin-bottom card" id="education">
       <h2 class="padding-left"><span>Education</span></h2>
-      <div class="col-sm-4 col-sm-offset-1 margin-bottom">
-        <img class="img-edu img-center margin-top" src="./images/cmu.jpg" />
-        <h3 class="heading">Carnegie Mellon University '19</h3>
-        <p>B.S. in Electrical & Computer Engineering</p>
-        <p>Engineers Without Borders, Student Senate, Alpha Chi Omega</p>
+      <div class="col-sm-5 margin-bottom">
+        <div class="row margin-top">
+          <div class="col-xs-3"><img class="img-school" src="./images/cmu.png" /></div>
+          <div class="col-xs-9">
+            <h3 class="university-title">Carnegie Mellon University '19</h3>
+            <p>B.S. in Electrical & Computer Engineering<br />Minor in Computer Science</p>
+            <p>Engineers Without Borders, Student Senate, Alpha Chi Omega</p>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-4 col-sm-offset-1 margin-bottom">
-        <img class="img-edu img-center margin-top" src="./images/pingry.jpg" />
-        <h3 class="heading">Pingry '15</h3>
-        <p>Varsity Swimming, NJSIAA Scholar-Athlete, Cum Laude Society, Varsity Debate</p>
+      <div class="col-sm-5 col-sm-offset-1 margin-bottom">
+        <div class="row margin-top">
+          <div class="col-xs-3"><img class="img-school" src="./images/pingry.png" /></div>
+          <div class="col-xs-9">
+            <h3 class="university-title">Pingry High School '15</h3>
+            <p>Varsity Swimming, NJSIAA Scholar-Athlete,<br/>Cum Laude Society, Varsity PF Debate</p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="row margin-bottom" id="experience">
+    <div class="row margin-bottom card" id="experience">
       <h2 class="padding-left"><span>Experience</span></h2>
       <div class="col-sm-4 margin-bottom">
         <h3 class="heading">GoDaddy Software Developer Internship</h3>
       </div>
       <div class="col-sm-4 margin-bottom">
         <h3 class="heading">HCI Research: Patient Motion Detection</h3>
+        <p>Each year, around 700,000 to 1,000,000 people in the United States fall in the hospital[footnote]. I am developing a patient motion detection system for the patients and nurses at West Penn Hospital. Mentored by former CMU HCI director Dan Siewiorek, we will start user testing in Fall 2017. The following prototype was built using a PIR sensor and Raspberry Pi.</p>
       </div>
       <div class="col-sm-4 margin-bottom">
         <h3 class="heading">Decisive Analytics Software Engineering Internship</h3>
@@ -66,27 +72,30 @@
       </div>
     </div>
 
-    <div class="row margin-bottom" id="projects">
+    <div class="row margin-bottom card" id="projects">
       <h2 class="padding-left"><span>Projects</span></h2>
         <div class="col-sm-4 col-sm-offset-1 heading margin-bottom">
           <h3>Hedgey</h3>
+          <p>An education web application created at Penn Apps 2017. Targeted towards pre-K children, this application seeks to teach children how to name common everyday objects utilizing Clarifai image recognition and Google speech detection API’s. We utilized HTML, CSS, and Javascript in the front-end, with Python and Flask running in the backend. Collaboration with Kristin Yin, Selena Zhen, and Tiffany Zhu.</p>
         </div>
         <div class="col-sm-4 col-sm-offset-2 heading margin-bottom">
           <h3>Object Motion Tracking</h3>       
         </div>
         <div class="col-sm-4 col-sm-offset-1 heading margin-bottom">
           <h3>Tailor'd</h3>
+          <p>A fashion mobile application that won the category for “Best Mobile App” at HackCMU. Using complementary color palettes, Tailor’d can randomly generate coordinated outfits and let you keep an inventory of your current wardrobe. Built using Python, HTML, CSS, and Javascript in the Ionic mobile application and Flask frameworks, this application synthesizes clean design with an intuitive user interface. Collaboration with Kristin Yin, Selena When, and Tiffany Zhu.</p>
         </div>
         <div class="col-sm-4 col-sm-offset-2 heading margin-bottom">
-          <h3>Panda3D Aquarium</h3>       
+          <h3>3D Aquarium</h3>
+          <p>The 3D Aquarium simulator was my final project for the course “Fundamentals of Programming and Computer Science.” The course was taught entirely in Python, but I decided to explore and use new technologies such as Panda3D (3D game engine) and Blender (computer graphics software). In this simulator, one can add fish to the aquarium and have the fish simulate community and aggressive behaviors. Feeding and user controls were also incorporated into the simulator.</p>   
         </div>     
     </div>
 
-    <div class="row margin-bottom" id="leadership">
+    <div class="row margin-bottom card" id="leadership">
       <h2 class="padding-left"><span>Leadership</span></h2>
       <div class="col-sm-4 margin-bottom">
         <img src="images/ewb.png" class="img-center img-activities" />
-        <h3 class="heading">Engineers Without Borders Project Lead</h3>
+        <h3 class="heading">Engineers Without Borders Project&nbspLead</h3>
       </div>
       <div class="col-sm-4 margin-bottom">
         <img src="images/senate.jpg" class="img-center img-activities" />
@@ -94,11 +103,11 @@
       </div>
       <div class="col-sm-4 margin-bottom">
         <img src="images/swim.jpg" class="img-center img-activities" />
-        <h3 class="heading">Pingry Varsity Swim Team&nbspCo&#8209;Captain</h3>
+        <h3 class="heading">Pingry Varsity Swim Team&nbspCaptain</h3>
       </div>
     </div>
 
-    <div class="row margin-bottom" id="photography">
+    <div class="row margin-bottom card" id="photography">
       <h2 class="padding-left"><span>Photography</span></h2>
       <div class="col-sm-4 margin-bottom">
         <h3 class="heading">Nature</h3>
