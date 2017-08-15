@@ -19,9 +19,11 @@
   <title>Christina Ou</title>
 </head>
 <body>
-  <div class="jumbotron title-name">
+  <div class="top-bar">
     <h2>Christina Ou</h2>
-
+    <!-- <div class="social-links">
+      <p>hi</p>
+    </div> -->
     <div class="my-nav-bar">
       <ul>
         <li><div class="section-button active" goto="about">About</div></li>
@@ -35,8 +37,8 @@
     <div class="row margin-bottom card" id="about">
       <div class="col-sm-8">
         <h2>Welcome! I'm Christina,</h2>
-        <p>A rising junior studying Electrical and Computer Engineering at Carnegie Mellon University.<br />Thank you for visiting my website!</p>
-        <p>I have experience with software engineering, computer engineering, and leadership through my internships, research, coursework, and extracurricular activities. </p>
+        <p>A rising junior studying Electrical and Computer Engineering at Carnegie Mellon University.</p>
+        <p>I have experience with software development, computer engineering, and leadership through my internships, research, coursework, and extracurricular activities. </p>
       </div>
       <div class="col-sm-3 col-sm-offset-1 margin-top margin-bottom">
         <img src="./images/headshot.jpg" id="headshot" class="img-center" />
@@ -73,7 +75,7 @@
       </div>
       <div class="col-sm-4 margin-bottom">
         <h3 class="heading">HCI Research:<br />Patient Motion Detection</h3>
-        <p>Each year, around 700,000 to 1,000,000 people in the United States fall in the hospital[footnote]. I am developing a patient motion detection system for the patients and nurses at West Penn Hospital. Mentored by former CMU HCI director Dan Siewiorek, we will start user testing in Fall 2017. The following prototype was built using a PIR sensor and Raspberry Pi.</p>
+        <p>Each year, around 700,000 to 1,000,000 people in the United States fall in the hospital. I am developing a patient motion detection system for the patients and nurses at West Penn Hospital. Mentored by former CMU HCI director Dan Siewiorek, I created a prototype using PIR sensors and Raspberry Pi's, and we will start user testing in Fall 2017.</p>
       </div>
       <div class="col-sm-4 margin-bottom">
         <h3 class="heading">Decisive Analytics Software Engineering Internship</h3>
@@ -84,49 +86,56 @@
     <div class="row margin-bottom card" id="projects">
       <h2 class="padding-left"><span>Projects</span></h2>
         <div class="col-sm-4 col-md-3 heading margin-bottom">
-          <h3>Hedgey</h3>
-          <p class="description">An education web application created at Penn Apps 2017. Targeted towards pre-K children, this application seeks to teach children how to name common everyday objects utilizing Clarifai image recognition and Google speech detection API’s. We utilized HTML, CSS, and Javascript in the front-end, with Python and Flask running in the backend. Collaboration with Kristin Yin, Selena Zhen, and Tiffany Zhu.</p>
+          <h3><a href="https://github.com/christinaou/hedgey" target="_blank">Hedgey</a></h3>
+          <p class="description">An education web application created at Penn Apps 2017. Targeted towards pre-K children, this application seeks to teach children how to name common everyday objects utilizing Clarifai image recognition and Google speech detection API’s. We utilized HTML, CSS, and Javascript in the front-end, with Python and Flask running in the backend.</p>
         </div>
         <div class="col-sm-4 col-md-3 heading margin-bottom">
-          <h3>Patient Motion Detection</h3>  
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet venenatis elit. Suspendisse ante nulla, eleifend at finibus ac, maximus aliquam leo. Nulla facilisi. Proin dapibus, nisl ut ullamcorper semper, mauris nunc efficitur dui, ullamcorper aliquet erat quam nec sem. Integer ac pulvinar tortor. Duis placerat hendrerit suscipit. Nam placerat, tellus ut rhoncus gravida, lacus libero tincidunt eros, sit amet ultrices felis lectus nec erat.</p>     
+          <h3><a href="/static/researchReport.pdf" target="_blank">Patient Motion Detection</a></h3>  
+          <p class="description">During these past two semesters, I have been working with West Penn Hospital to develop a technical solution to the widespread problem of patient falls in their rehabilitation unit. I developed a prototype utilizing PIR sensors and Raspberry Pi's and will perform user testing in the fall.</p>     
         </div>
         <div class="col-sm-4 col-md-3 heading margin-bottom">
-          <h3>Video Object Tracking</h3>  
-          <p class="description">As our final project in the course Computer Vision, I implemented the mean shift tracking algorithm. This tracker is histogram-based and utilizes the statistics of a region, which makes it well suited for tracking deformable objects. The following video is the result of setting the tracker to track the object that lies at [ , ], the coordinates of the green cup. This MATLAB program redraws the bounding box for the object at every frame.</p>     
-        </div>
-        <div class="col-sm-4 col-md-3 heading margin-bottom">
-          <h3>Tailor'd</h3>
-          <p class="description">A fashion mobile application that won the category for “Best Mobile App” at HackCMU. Using complementary color palettes, Tailor’d can randomly generate coordinated outfits and let you keep an inventory of your current wardrobe. Built using Python, HTML, CSS, and Javascript in the Ionic mobile application and Flask frameworks, this application synthesizes clean design with an intuitive user interface. Collaboration with Kristin Yin, Selena When, and Tiffany Zhu.</p>
-        </div>
-        <div class="clearfix visible-md"></div>
-        <div class="col-sm-4 col-md-3 heading margin-bottom">
-          <h3>3D Aquarium</h3>
-          <p class="description">The 3D Aquarium simulator was my final project for the course “Fundamentals of Programming and Computer Science.” The course was taught entirely in Python, but I decided to explore and use new technologies such as Panda3D (3D game engine) and Blender (computer graphics software). In this simulator, one can add fish to the aquarium and have the fish simulate community and aggressive behaviors. Feeding and user controls were also incorporated into the simulator.</p>   
-        </div>
-        <div class="col-sm-4 col-md-3 heading margin-bottom">
-          <h3>Energy In Nyadire</h3>
-          <p class="description">Aliquam aliquet lectus vitae interdum bibendum. Cras quis libero id urna tristique dapibus. Aliquam molestie pharetra risus vel scelerisque. Aenean et enim in justo dapibus molestie in a neque. Donec lorem elit, tincidunt sit amet maximus vel, finibus tincidunt nisi. Morbi quis ante ut tortor accumsan consectetur et ut lorem. Donec sem velit, mattis non bibendum sed, viverra in purus. Ut a nunc a elit ornare lacinia.</p>
+          <h3><a href="https://github.com/christinaou/video-object-tracking" target="_blank">Video Object Tracking</a></h3>  
+          <p class="description">As our final project in the course Computer Vision, I implemented the mean shift tracking algorithm. This tracker is histogram-based and utilizes the statistics of a region, which makes it well suited for tracking deformable objects. One runs the MATLAB program on a video, sets the tracker to the coordinates of an object, and the program will redraw the bounding box for the object at every frame.</p>     
         </div>
         <div class="clearfix visible-sm"></div>
         <div class="col-sm-4 col-md-3 heading margin-bottom">
-          <h3>Personal Website</h3>
-          <p class="description">My custom personal website built using HTML, CSS, and JavaScript. Used Bootstrap only for its Grid system to make the website mobile-friendly.</p>
+          <h3><a href="https://github.com/christinaou/tailord" target="_blank">Tailor'd</a></h3>
+          <p class="description">A fashion mobile application that won the category for “Best Mobile App” at HackCMU. Using complementary color palettes, Tailor’d can randomly generate coordinated outfits and let you keep an inventory of your current wardrobe. Built using Python, HTML, CSS, and Javascript in the Ionic mobile application and Flask frameworks, this application synthesizes clean design with an intuitive user interface.</p>
+        </div>
+        <div class="clearfix visible-md"></div>
+        <div class="col-sm-4 col-md-3 heading margin-bottom">
+          <h3><a href="https://github.com/christinaou/3d-aquarium" target="_blank">3D Aquarium</a></h3>
+          <p class="description">The 3D Aquarium simulator was my final project for the course “Fundamentals of Programming and Computer Science.” Coded in Python, this project also utilized Panda3D (3D game engine) and Blender (computer graphics software). In this simulator, one can personalize and add fish to the aquarium and have the fish simulate community and aggressive behaviors. Feeding and user controls were also incorporated into the simulator.</p>   
+        </div>
+        <div class="col-sm-4 col-md-3 heading margin-bottom">
+          <h3><a href="/static/ewb525Plan.pdf" target="_blank">Energy In Nyadire</a></h3>
+          <p class="description">This is </p>
+        </div>
+        <div class="clearfix visible-sm"></div>
+        <div class="col-sm-4 col-md-3 heading margin-bottom">
+          <h3><a href="https://github.com/christinaou/christinaou.github.io" target="_blank">Personal Website</a></h3>
+          <p class="description">My custom personal website built using HTML, CSS, and JavaScript. Used Bootstrap for its Grid system to make the website mobile-friendly.</p>
         </div>
     </div>
 
     <div class="row margin-bottom card" id="leadership">
       <h2 class="padding-left"><span>Leadership</span></h2>
       <div class="col-sm-4 margin-bottom">
-        <img src="images/ewb.png" class="img-center img-activities" />
+        <a href="http://cmuewb.org/projects.html#zimbabwe" target="_blank">
+          <img src="images/ewb.png" class="img-center img-activities" />
+        </a>
         <h3 class="heading">Engineers Without Borders Project&nbspLead</h3>
       </div>
       <div class="col-sm-4 margin-bottom">
-        <img src="images/senate.jpg" class="img-center img-activities" />
+        <a href="https://cmusenate.org/committees/academic-affairs/" target="_blank">
+          <img src="images/senate.jpg" class="img-center img-activities" />
+        </a>
         <h3 class="heading">Student Senate Academic&nbspAffairs Vice&nbspChair</h3>
       </div>
       <div class="col-sm-4 margin-bottom">
-        <img src="images/swim.jpg" class="img-center img-activities" />
+        <a href="http://www.mycentraljersey.com/story/sports/high-school/swimming/2015/02/22/girls-swimming-pingry-non-public-championship/23841681/" target="_blank">
+          <img src="images/swim.jpg" class="img-center img-activities" />
+        </a>
         <h3 class="heading">Pingry Varsity Swim Team&nbspCaptain</h3>
       </div>
     </div>

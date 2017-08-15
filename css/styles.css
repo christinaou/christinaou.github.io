@@ -22,15 +22,11 @@ p {
 /*33698A*/
 
 /* TITLE BAR */
-.title-name {
-  margin-bottom: 0;
-  /*background-color: #0E2237;
-  color: white;*/
+.top-bar {
   background-color: #f4fdff;
   color: #0E2237;
   padding: 1px 0px 0px 0px;
-/*  padding-top: 20px;
-  padding-bottom: 10px;*/
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -38,10 +34,16 @@ p {
   z-index: 999;
 }
 
-.title-name h2 {
+.top-bar h2 {
   font-family: 'Montserrat';
   text-align: center;
   font-size: 50px;
+  /*display: inline-block;*/
+}
+
+.social-links {
+  text-align: right;
+  display: inline-block;
 }
 
 /* NAV BAR */
@@ -110,6 +112,8 @@ p {
 
 /* CONTENT */
 
+
+
 .content {
   margin-top: 153px;
   overflow-y: auto;
@@ -149,7 +153,7 @@ p {
 .card {
   border-radius: 4px;
   background-color: #f4fdff;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .description {
