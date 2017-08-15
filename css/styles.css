@@ -7,19 +7,13 @@ body {
 }
 
 .container {
-  /*margin-top: 30px;*/
   background-color: #33698A;
-}
-
-div {
-  /*border: 1px solid red;*/
 }
 
 p {
   font-size: 16px;
 }
 
-/*33698A*/
 
 /* TITLE BAR */
 .top-bar {
@@ -38,13 +32,8 @@ p {
   font-family: 'Montserrat';
   text-align: center;
   font-size: 50px;
-  /*display: inline-block;*/
 }
 
-.social-links {
-  text-align: right;
-  display: inline-block;
-}
 
 /* NAV BAR */
 
@@ -59,9 +48,6 @@ p {
   padding: 0;
   overflow: hidden;
   text-align: center;
-/*  width: 50%;
-  min-width: 376px;*/
-  width: 385px;
   border-radius: 3px;
 }
 
@@ -70,12 +56,7 @@ p {
   font-family: 'Montserrat';
   font-weight: bold;
   margin: 5px 0 5px 0;
-  /*border-right: 1px solid #0E2237;*/
 }
-
-/*.my-nav-bar li:last-child {
-    border-right: none;
-}*/
 
 .my-nav-bar div {
   display: block;
@@ -96,6 +77,7 @@ p {
     background-color: #b5d897;
 }
 
+
 /* COMMON */
 .margin-top {
   margin-top: 20px;
@@ -112,12 +94,18 @@ p {
 
 /* CONTENT */
 
-
-
 .content {
   margin-top: 153px;
   overflow-y: auto;
-  /*overflow: scroll;*/
+}
+
+.fa-links a {
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.fa-links i {
+  padding-right: 5px;
 }
 
 .img-school {
